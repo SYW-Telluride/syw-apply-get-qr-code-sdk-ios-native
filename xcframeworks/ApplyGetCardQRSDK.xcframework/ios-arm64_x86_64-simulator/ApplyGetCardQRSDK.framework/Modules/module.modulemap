@@ -1,0 +1,4 @@
+framework module ApplyGetCardQRSDK {
+  header "ApplyGetCardQRSDK-Swift.h"
+  requires objc
+}

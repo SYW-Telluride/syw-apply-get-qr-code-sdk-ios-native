@@ -1,0 +1,161 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ApplyGetCardQRSDK
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+import Combine
+import CoreGraphics
+import Foundation
+import Security
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct AGCQRConfig {
+}
+extension ApplyGetCardQRSDK.AGCQRConfig : Swift.Equatable, Swift.Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public static func == (lhs: ApplyGetCardQRSDK.AGCQRConfig, rhs: ApplyGetCardQRSDK.AGCQRConfig) -> Swift.Bool
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct PYWConfirmation : Swift.Codable {
+  public let authCode: Swift.String
+  public let orderDate: Swift.String?
+  public let paymentStatus: Swift.String?
+  public let paymentTotal: Swift.String?
+  public let paymentDetails: [ApplyGetCardQRSDK.PYWConfirmation.PaymentDetail]?
+  public let additionalInfo: ApplyGetCardQRSDK.PYWConfirmation.PaymentAdditionalInfo?
+  public let responseCode: Swift.String?
+  public let transactionId: Swift.String?
+  public let responseMessage: Swift.String?
+  public struct PaymentDetail : Swift.Codable {
+    public let id: Swift.String?
+    public let type: Swift.String?
+    public let amount: Swift.String?
+    public let status: Swift.String?
+    public let currency: Swift.String?
+    public let cardLastFour: Swift.String?
+    public let cardType: Swift.String?
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public struct PaymentAdditionalInfo : Swift.Codable {
+    public let address: ApplyGetCardQRSDK.PYWConfirmation.PaymentAdditionalInfo.PaymentAddress
+    public struct PaymentAddress : Swift.Codable {
+      public let addressLine1: Swift.String?
+      public let addressLine2: Swift.String?
+      public let state: Swift.String?
+      public let city: Swift.String?
+      public let postalCode: Swift.String?
+      public let shcAssociateInd: Swift.String?
+      public let pinNumber: Swift.String?
+      public let zipCodeExtension: Swift.String?
+      public func encode(to encoder: any Swift.Encoder) throws
+      public init(from decoder: any Swift.Decoder) throws
+    }
+    public func encode(to encoder: any Swift.Encoder) throws
+    public init(from decoder: any Swift.Decoder) throws
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers final public class SDKFontLoader {
+  public static func registerFonts()
+  @objc deinit
+}
+final public class AGCQRBuilder {
+  public init(refId: Swift.String, environment: ApplyGetCardQRSDK.AGCQREnvironment, delegate: any ApplyGetCardQRSDK.AGCQRDelegate, merchant: Swift.String)
+  @discardableResult
+  final public func setSourceViewController(_ sourceViewController: UIKit.UIViewController) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setSaleAmount(_ saleAmount: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setReturnUrl(_ returnUrl: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setOpenWith(_ openWith: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setItems(_ items: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setAddresses(_ addresses: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setPrepareHandler(_ handler: @escaping () -> Swift.Void) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setStatusHandler(_ handler: @escaping (Swift.String) -> Swift.Void) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setPrepareButtonEnabled(_ enabled: Swift.Bool) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setMemberNumber(_ memberNumber: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setEmail(_ email: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setMobile(_ mobile: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setFirstName(_ firstName: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setLastName(_ lastName: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setAddressLine1(_ addressLine1: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setAddressLine2(_ addressLine2: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setCity(_ city: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setState(_ state: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setZip(_ zip: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setCountry(_ country: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setUserSessionId(_ userSessionId: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setRID(_ RID: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  @discardableResult
+  final public func setProps(_ addProps: [Swift.String : Swift.AnyHashable]) -> ApplyGetCardQRSDK.AGCQRBuilder
+  final public func build() -> ApplyGetCardQRSDK.AGCQRConfig
+  @objc deinit
+}
+public enum AGCQREnvironment {
+  case prod
+  case uat
+  public static func == (a: ApplyGetCardQRSDK.AGCQREnvironment, b: ApplyGetCardQRSDK.AGCQREnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency final public class AGCQRComponent : UIKit.UIView {
+  @_Concurrency.MainActor @preconcurrency @objc override final public func layoutSubviews()
+  @_Concurrency.MainActor @preconcurrency final public func setConfig(_ configuration: ApplyGetCardQRSDK.AGCQRConfig)
+  @_Concurrency.MainActor @preconcurrency final public func updateRefId(_ refId: Swift.String)
+  @_Concurrency.MainActor @preconcurrency final public func updateDueAmount(_ amount: Swift.String)
+  @_Concurrency.MainActor @preconcurrency final public func setPrepareButtonEnabled(_ enabled: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency final public func continueToApplication()
+  @objc deinit
+}
+extension ApplyGetCardQRSDK.AGCQRComponent : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor @preconcurrency @objc final public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+}
+public protocol AGCQRDelegate : AnyObject {
+  func onClickContinue()
+  func onPywSuccess(pywId: Swift.String?, pywConfirmation: ApplyGetCardQRSDK.PYWConfirmation?)
+  func onPywFailure(pywId: Swift.String?)
+  func onPywCanceled()
+  func onPywHold(pywId: Swift.String?)
+  func onPywInvalidSession()
+  func onApplyGetCardFailure()
+  func onApplyGetCardSuccess()
+}
+extension ApplyGetCardQRSDK.AGCQRDelegate {
+  public func onPywSuccess(pywId: Swift.String?, pywConfirmation: ApplyGetCardQRSDK.PYWConfirmation?)
+  public func onPywFailure(pywId: Swift.String?)
+  public func onPywCanceled()
+  public func onPywHold(pywId: Swift.String?)
+  public func onPywInvalidSession()
+  public func onApplyGetCardFailure()
+  public func onApplyGetCardSuccess()
+}
+extension ApplyGetCardQRSDK.AGCQREnvironment : Swift.Equatable {}
+extension ApplyGetCardQRSDK.AGCQREnvironment : Swift.Hashable {}
