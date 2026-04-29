@@ -111,7 +111,7 @@ final public class AGCQRBuilder {
   @discardableResult
   final public func setUserSessionId(_ userSessionId: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
   @discardableResult
-  final public func setRID(_ RID: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
+  final public func setRID(_ rId: Swift.String) -> ApplyGetCardQRSDK.AGCQRBuilder
   @discardableResult
   final public func setProps(_ addProps: [Swift.String : Swift.AnyHashable]) -> ApplyGetCardQRSDK.AGCQRBuilder
   final public func build() -> ApplyGetCardQRSDK.AGCQRConfig
@@ -132,8 +132,8 @@ public enum AGCQREnvironment {
   @_Concurrency.MainActor @preconcurrency final public func updateRefId(_ refId: Swift.String)
   @_Concurrency.MainActor @preconcurrency final public func updateDueAmount(_ amount: Swift.String)
   @_Concurrency.MainActor @preconcurrency final public func setPrepareButtonEnabled(_ enabled: Swift.Bool)
-  @_Concurrency.MainActor @preconcurrency final public func continueToApplication()
   @objc deinit
+  @_Concurrency.MainActor @preconcurrency final public func continueToApplication()
 }
 extension ApplyGetCardQRSDK.AGCQRComponent : UIKit.UIScrollViewDelegate {
   @_Concurrency.MainActor @preconcurrency @objc final public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)

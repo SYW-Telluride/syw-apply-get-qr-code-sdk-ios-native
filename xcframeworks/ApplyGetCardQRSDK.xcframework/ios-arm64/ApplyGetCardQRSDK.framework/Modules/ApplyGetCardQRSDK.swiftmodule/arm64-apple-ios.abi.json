@@ -5088,56 +5088,56 @@
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/AGComponent\/AGCQRComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 1539,
+      "offset": 1593,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/AGComponent\/AGCQRComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 2028,
+      "offset": 2082,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/AGComponent\/AGCQRComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2234,
+      "offset": 2288,
       "length": 8,
       "value": "\"0066CC\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/AGComponent\/AGCQRComponent.swift",
       "kind": "StringLiteral",
-      "offset": 2308,
+      "offset": 2362,
       "length": 8,
       "value": "\"0066CC\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/AGComponent\/AGCQRComponent.swift",
       "kind": "FloatLiteral",
-      "offset": 2337,
+      "offset": 2391,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/AGComponent\/AGCQRComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 2383,
+      "offset": 2437,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/AGComponent\/AGCQRComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 23478,
+      "offset": 23634,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/AGComponent\/AGCQRComponent.swift",
       "kind": "BooleanLiteral",
-      "offset": 24420,
+      "offset": 24576,
       "length": 4,
       "value": "true"
     },
