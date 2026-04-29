@@ -4857,49 +4857,56 @@
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/PYWEmailLinkView.swift",
       "kind": "StringLiteral",
-      "offset": 603,
+      "offset": 662,
       "length": 13,
       "value": "\"Enter email\""
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/PYWEmailLinkView.swift",
       "kind": "IntegerLiteral",
-      "offset": 687,
+      "offset": 828,
+      "length": 2,
+      "value": "14"
+    },
+    {
+      "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/PYWEmailLinkView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 944,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/PYWEmailLinkView.swift",
       "kind": "IntegerLiteral",
-      "offset": 720,
+      "offset": 977,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/PYWEmailLinkView.swift",
       "kind": "IntegerLiteral",
-      "offset": 845,
+      "offset": 1100,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/PYWEmailLinkView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1187,
+      "offset": 1508,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/PYWEmailLinkView.swift",
       "kind": "IntegerLiteral",
-      "offset": 1450,
+      "offset": 1771,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/brashiy\/Documents\/PYW\/AWS PywSDK\/shconline-telluride-pyw-ios-sdk\/ApplyGetCardQRSDK\/Custom components\/PYWEmailLinkView.swift",
       "kind": "IntegerLiteral",
-      "offset": 2068,
+      "offset": 2389,
       "length": 1,
       "value": "0"
     },
